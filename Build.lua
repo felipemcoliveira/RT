@@ -1,7 +1,7 @@
 -- premake5.lua
-workspace "New Project"
+workspace "RT"
    architecture "x64"
-   configurations { "Debug", "Release", "Dist" }
+   configurations { "Debug", "Release", "Distribution" }
    startproject "App"
 
    -- Workspace-wide build options for MSVC

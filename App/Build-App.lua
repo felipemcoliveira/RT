@@ -10,8 +10,6 @@ project "App"
    includedirs
    {
       "Source",
-
-	  -- Include Core
 	  "../Core/Source"
    }
 
@@ -38,7 +36,7 @@ project "App"
        optimize "On"
        symbols "On"
 
-   filter "configurations:Dist"
+   filter "configurations:Distribution"
        defines { "DIST" }
        runtime "Release"
        optimize "On"

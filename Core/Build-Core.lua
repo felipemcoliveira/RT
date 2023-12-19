@@ -1,4 +1,4 @@
-project "Core"
+project "RT.Core"
    kind "StaticLib"
    language "C++"
    cppdialect "C++20"
@@ -30,7 +30,7 @@ project "Core"
        optimize "On"
        symbols "On"
 
-   filter "configurations:Dist"
+   filter "configurations:Distribution"
        defines { "DIST" }
        runtime "Release"
        optimize "On"
